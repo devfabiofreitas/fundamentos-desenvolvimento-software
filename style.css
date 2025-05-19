@@ -1,0 +1,100 @@
+body {
+    background-color: #fcf9fa;
+    margin: 20px 200px;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Times New Roman', Times, serif;
+}
+#title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#bio {
+    color: #000;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-align: justify;
+}
+
+#hobbies-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#hobbies-list {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+#hobbies-list li {
+    margin-bottom: 10px;
+}
+
+#hobby-image {
+    width: 350px;
+    object-fit: cover;
+}
+
+#message-button {
+    background-color: #e2e8f0;
+    color: #030712;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#message-button:hover {
+    background-color: #cad5e2;
+    color: #030712;
+}
+
+#motivational-message {
+    color: #030712;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#country-table {
+    width: 500px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#country-table th, #country-table td {
+    border: 0.5px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.country-image {
+    width: 150px;
+    object-fit: cover;
+}
+
+#interest-link {
+    color: #4a5565;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#interest-link:hover {
+    color: #030712;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 1rem;
+}
